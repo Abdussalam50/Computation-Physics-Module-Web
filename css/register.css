@@ -1,0 +1,96 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+body{
+
+    background: beige;
+    background-repeat: no-repeat; /*supaya bg nya cuma sekali*/
+    background-size: cover;/*supaya menutup semua body*/
+}
+.login{
+    width:350px;
+    height:400px;
+    display:flex;
+    flex-direction: column;  /*untuk mengarahkan flexnnya ke bawah*/
+    justify-content: space-around;
+    align-items: center;/*untuk membuat semua elemen dalam div jadi ketengah*/
+    background-color:aquamarine;
+    margin-left: 35%;
+    margin-top: 16%;
+    border:black 1px solid;
+    border-radius: 20px; /*untuk garis lengkung estetik*/
+    padding-bottom: 5px;
+    position:absolute;
+    top:5%;
+
+}
+
+.login .nama{
+    width: 200px;
+    height: 30px;
+    border:1px black solid ;
+    border-radius: 6px;
+    
+}
+
+.login .Password{
+    width: 200px;
+    height: 30px;
+    border:1px black solid ;
+    border-radius: 6px;
+
+}
+.login .KPassword{
+    width: 200px;
+    height: 30px;
+    border:1px black solid ;
+    border-radius: 6px;
+}
+
+
+.login .Username{
+    width: 200px;
+    height: 30px;
+    border:1px black solid ;
+    border-radius: 6px;
+    
+}
+
+.login .submit{
+    width: 150px;
+    height: 30px;
+    border:1px black solid ;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 30px;
+    margin-bottom: 2px;
+    margin-top: 20px;
+}
+.login .submit:hover{
+    border-color: darkgoldenrod;
+    color:rgb(17, 16, 19);
+    background-color: rgb(189, 160, 216);
+}
+
+.login p{
+    margin-top: 2px;
+    margin-right: 130px;
+    margin-bottom:7px;
+    margin-left:60px;
+    font-family:  Georgia;
+    color: rgb(255, 255, 255);
+    justify-content: first baseline;
+}
+
+.role{
+    display:flex;
+    width:100%;
+    justify-content:center;
+}
+
+.role input{
+    margin-left:20px;
+}

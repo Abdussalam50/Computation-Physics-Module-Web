@@ -1,0 +1,110 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background-color:#eaeaea;
+}
+nav{
+    height: 78px;
+    width: 100%;
+}
+
+.nav{
+    height: 78px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: coral;
+}
+
+.judul{
+    height: 78px;
+    width: 300px;
+    margin-right: 300px;
+    font-family: 'Belanosima',sans-serif;
+}
+
+.judul h1{
+    font-size: 30px;
+    margin-top: 8px;
+}
+
+.profil{
+    height: 78px;
+    width: 200px;
+    font-family: 'Belanosima',sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+.f-profil{
+    height: 78px;
+    width: 78px;
+}
+
+.f-profil img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+button{
+    width: 100px;
+    height: 60px;
+    font-family: 'Belanosima',sans-serif;
+    border: none;
+    cursor: pointer;
+    background-color: coral;
+    font-size: 16px;
+}
+.list-nilai{
+    display:flex;
+    height:700px;
+    width:100%;
+    gap:20px;
+}
+
+.list-nilai .List{
+    width:20%;
+    height:100%;
+    background-color: coral;
+}
+
+.list-nilai .List ul{
+    margin:0px;
+    padding:0px;
+    width:100%;
+    background-color: coral;
+}
+
+.list-nilai .List ul li{
+    list-style:none;
+    padding:10px;
+   
+}
+
+.list-nilai .List ul li:hover{
+    background-color: rgb(255, 162, 128);
+    cursor:pointer;
+    text-align:start;
+}
+
+.list-nilai .List ul li a{
+    font-size:18px;
+    font-family:'Belanosima',sans-serif;
+    text-decoration:none;
+    color:#000;
+
+}
+
+#body{
+    background-color:#eaeaea;
+}
+
+.nav form button:hover{
+    color:#fff;
+}

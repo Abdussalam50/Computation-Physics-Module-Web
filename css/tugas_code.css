@@ -1,0 +1,152 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+
+nav{
+    width:100%;
+    height:78px;
+}
+
+.nav button{
+    background-color: #9932CC;
+    border:none;
+    cursor:pointer;
+    font-family: 'Belanosima',sans-serif;
+    font-size: 17px;
+}
+
+.nav button:hover{
+    color:#fff;
+}
+
+nav .nav{
+    width:100%;
+    height:78px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #9932CC;
+}
+
+.judul{
+    height: 78px;
+    width: 300px;
+    margin-right: 300px;
+    font-family: 'Belanosima',sans-serif;
+    color:#f388f3
+}
+
+.judul h1{
+    font-size: 30px;
+    margin-top: 8px;
+}
+
+.profil{
+    height: 78px;
+    width: 200px;
+    font-family: 'Belanosima',sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+.f-profil{
+    height: 78px;
+    width: 78px;
+}
+
+.f-profil img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+#title{
+    font-family: 'Belanosima',sans-serif;
+    color:#9932CC;
+    margin:10px;
+}
+
+.content{
+    width:98%;
+    height:auto;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-bottom:20px;
+}
+
+.content .exam{
+    width:40%;
+    height:100%;
+    
+}
+
+.content .exam .paper{
+    padding:20px 20px;
+    width:80%;
+    height:90%;
+    background-color: #fff;
+}
+
+.content .input-box{
+    display:flex;
+    flex-direction: column;
+    width:60%;
+    height:auto;
+}
+
+.content .input-box label{
+    margin-bottom:5px;
+}
+
+.content .input-box input{
+    height:30px;
+    border-radius: 0.4em;
+    margin-bottom:20px;
+    outline:1px solid #9932CC;
+    border:none;
+}
+
+.content .input-box input:focus{
+    outline:2px solid #9932cc94;
+}
+#file{
+    outline:none;
+    border-radius: 0px;
+}
+
+.content .input-box .button button{
+    height:30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius:0.5em;
+    border:none;
+    font-family:'Belanosima',sans-serif;
+    font-weight:600;
+    background-color: #9932CC;
+    color:#f388f3;
+    cursor:pointer;
+    letter-spacing: 0.1em;
+    font-size:15px;
+}
+
+.content .input-box .button button:hover{
+    background-color: #f388f3;
+    color:#9932CC;
+}
+
+.input-box label{
+    font-family: 'Belanosima',sans-serif;
+    font-weight:600;
+    font-size:17px;
+    letter-spacing: 0.1em;
+}
+
+#title-compiler{
+    font-family: 'Belanosima',sans-serif;
+    margin:20px;
+}

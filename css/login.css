@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.login{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aqua;
+    margin-left: 35%;
+    margin-top: 16%;
+}
+.login .username{
+    width: 200px;
+    height: 30px;
+}
+.login .password{
+    width: 200px;
+    height: 30px; 
+}
+.login .submit{
+    width: 150px;
+    height: 30px;
+}

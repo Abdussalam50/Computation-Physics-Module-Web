@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: coral;
+}
+.login{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: chocolate;
+    margin-left: 35%;
+    margin-top: 16%;
+    border: black 1px solid;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+.login .username{
+    width: 200px;
+    height: 30px;
+    border: 1px black;
+    border-radius: 6px;
+}
+.login .password{
+    width: 200px;
+    height: 30px; 
+    border: 1px black;
+    border-radius: 6px;
+}
+.login .submit{
+    width: 150px;
+    height: 30px;
+    border: 1px black;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    transition: all 0.3s;
+
+}
+.login .submit:hover{
+    background-color: burlywood;
+    color: white;
+
+}
+.login p{
+    margin-top: 15px;
+    margin-right: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
